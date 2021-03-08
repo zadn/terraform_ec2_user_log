@@ -15,7 +15,7 @@ variable "logs_bucket_name" {
 variable "cloudtrail_logs_bucket" {
   description = "S3 Bucket name for CloudTrail Logs"
   type        = string
-  default     = "aws-cloudtrail-logs-for-growthplug-task"
+  default     = "aws-cloudtrail-logs-112233"
 }
 
 # IAM resource variables
