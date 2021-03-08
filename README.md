@@ -4,8 +4,8 @@ Terraform script for logging user and instance details in an AWS account on who 
 The script creates AWS CloudTrail trail and EventBridge rule to capture any EC2 Instance start/stop activities. Once an API comes into the CloudTrail, Cloudwatch rule will trigger a Lambda function and forward the details to the function. The Lambda function receives the data, retrieves the necessary details and write the information into an S3 file.
 
 ### Versions
-Terraform v0.14.7
-Python v3.8
+`Terraform v0.14.7` <br>
+`Python v3.8` <br>
 
 # Running the script
 
